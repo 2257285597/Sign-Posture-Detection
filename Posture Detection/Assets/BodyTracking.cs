@@ -5,8 +5,59 @@ using UnityEngine;
 public class BodyTra : MonoBehaviour
 {
     public UDPReceive udpReceive;
-    public GameObject[] BodyPoints;
+    public GameObject[] BodyPoints = new GameObject[32];
+    public GameObject Body;
 
+    private void Start()
+    {
+        InitializeHand(Body, BodyPoints, "身体");
+    }
+
+    private void InitializeHand(GameObject handRoot, GameObject[] jointsArray, string handName)
+    {
+        if (handRoot == null)
+        {
+            Debug.LogError($"{handName}根物体未分配！");
+            return;
+        }
+
+        // 查找Points子物体
+        Transform pointsParent = handRoot.transform.Find("Points");
+        if (pointsParent == null)
+        {
+            Debug.LogError($"{handName}找不到Points子物体！");
+            return;
+        }
+        else
+        {
+            Debug.Log("找到Points");
+
+            // 保持原始Find实现
+            for (int i = 0; i < jointsArray.Length; i++)
+            {
+                // 注意：保持您原有的命名规则
+                Transform joint = pointsParent.Find($"Sphere ({i})");
+
+                if (joint != null)
+                {
+                    jointsArray[i] = joint.gameObject;
+                    Debug.Log($"{handName}绑定关节[{i}]: {joint.name}");
+                }
+                else
+                {
+                    Debug.LogError($"{handName}找不到关节：Sphere ({i})");
+                }
+            }
+        }
+    }
+#if UNITY_EDITOR
+    [ContextMenu("手动执行绑定")]
+    void EditorBind()
+    {
+        InitializeHand(Body, BodyPoints, "身体");
+        Debug.Log("手动绑定完成");
+    }
+#endif
     void Update()
     {
         string rawData = udpReceive.data;

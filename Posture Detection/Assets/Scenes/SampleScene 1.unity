@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -598,8 +597,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 105958662}
-  - component: {fileID: 105958661}
-  - component: {fileID: 105958660}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -607,69 +604,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &105958660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105958659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f2ec3e904364d64da1c184966dbff53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  udpReceive: {fileID: 105958661}
-  BodyPoints:
-  - {fileID: 1117315780}
-  - {fileID: 600819551}
-  - {fileID: 1408998359}
-  - {fileID: 1110313045}
-  - {fileID: 1842018395}
-  - {fileID: 1368346300}
-  - {fileID: 1371017096}
-  - {fileID: 1388293777}
-  - {fileID: 303422867}
-  - {fileID: 68195567}
-  - {fileID: 1522218993}
-  - {fileID: 1181795163}
-  - {fileID: 633764516}
-  - {fileID: 286911876}
-  - {fileID: 1388958671}
-  - {fileID: 1129582639}
-  - {fileID: 1884853885}
-  - {fileID: 334110501}
-  - {fileID: 74629085}
-  - {fileID: 830494718}
-  - {fileID: 1916940911}
-  - {fileID: 1010136905}
-  - {fileID: 1720351162}
-  - {fileID: 1074819635}
-  - {fileID: 1394848587}
-  - {fileID: 1794005}
-  - {fileID: 180719396}
-  - {fileID: 1832895463}
-  - {fileID: 1297336074}
-  - {fileID: 1702749484}
-  - {fileID: 125570088}
-  - {fileID: 121954582}
-  - {fileID: 1718649441}
---- !u!114 &105958661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105958659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b13e95301705641863eee89b8d3845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  port: 5052
-  startRecieving: 1
-  printToConsole: 0
-  data: 
 --- !u!4 &105958662
 Transform:
   m_ObjectHideFlags: 0
@@ -6589,6 +6523,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1883645539}
+  - component: {fileID: 1883645541}
+  - component: {fileID: 1883645542}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6611,6 +6547,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1883645541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883645538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b13e95301705641863eee89b8d3845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 5052
+  startRecieving: 1
+  printToConsole: 0
+  data: 
+--- !u!114 &1883645542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883645538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2ec3e904364d64da1c184966dbff53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  udpReceive: {fileID: 1883645541}
+  BodyPoints:
+  - {fileID: 1117315780}
+  - {fileID: 600819551}
+  - {fileID: 1408998359}
+  - {fileID: 1110313045}
+  - {fileID: 1842018395}
+  - {fileID: 1368346300}
+  - {fileID: 1371017096}
+  - {fileID: 1388293777}
+  - {fileID: 303422867}
+  - {fileID: 68195567}
+  - {fileID: 1522218993}
+  - {fileID: 1181795163}
+  - {fileID: 633764516}
+  - {fileID: 286911876}
+  - {fileID: 1388958671}
+  - {fileID: 1129582639}
+  - {fileID: 1884853885}
+  - {fileID: 334110501}
+  - {fileID: 74629085}
+  - {fileID: 830494718}
+  - {fileID: 1916940911}
+  - {fileID: 1010136905}
+  - {fileID: 1720351162}
+  - {fileID: 1074819635}
+  - {fileID: 1394848587}
+  - {fileID: 1794005}
+  - {fileID: 180719396}
+  - {fileID: 1832895463}
+  - {fileID: 1297336074}
+  - {fileID: 1702749484}
+  - {fileID: 125570088}
+  - {fileID: 121954582}
+  - {fileID: 1718649441}
+  Body: {fileID: 105958659}
 --- !u!1 &1884853885
 GameObject:
   m_ObjectHideFlags: 0
