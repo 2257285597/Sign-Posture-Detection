@@ -357,7 +357,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/unity3d 项目/2022.3.34f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/unity3d 项目/2022.3.34f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/GestureRecognition.cs"
 "Assets/Script/BodyTracking.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/HandBinder.cs"

@@ -8694,7 +8694,6 @@ GameObject:
   - component: {fileID: 1729087623}
   - component: {fileID: 1729087625}
   - component: {fileID: 1729087624}
-  - component: {fileID: 1729087626}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8793,23 +8792,6 @@ MonoBehaviour:
   startRecieving: 1
   printToConsole: 0
   data: 
---- !u!114 &1729087626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729087620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5f581fdc6e6ad240bff0f3f9c9a6d88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handTracking: {fileID: 0}
-  leftHandGesture: 0
-  rightHandGesture: 0
-  fingerExtendedThreshold: 0.04
-  fingerCloseThreshold: 0.025
 --- !u!1 &1751843851
 GameObject:
   m_ObjectHideFlags: 0
