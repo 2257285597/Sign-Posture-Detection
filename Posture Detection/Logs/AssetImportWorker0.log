@@ -15,7 +15,7 @@ D:/Document/GitHub/Sign-Posture-Detection/Posture Detection
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50423
+52067
 Successfully changed project path to: D:/Document/GitHub/Sign-Posture-Detection/Posture Detection
 D:/Document/GitHub/Sign-Posture-Detection/Posture Detection
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Document/GitHub/Sign-Posture-Detection/Posture Detection
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29716] Host "[IP] 172.19.33.72 [Port] 0 [Flags] 2 [Guid] 3612279117 [EditorId] 3612279117 [Version] 1048832 [Id] WindowsEditor(7,ÐìÎÄÁÕµÄ´óÆ¤¿¨) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23556] Host "[IP] 169.254.222.7 [Port] 0 [Flags] 2 [Guid] 2924192256 [EditorId] 2924192256 [Version] 1048832 [Id] WindowsEditor(7,ÐìÎÄÁÕµÄ´óÆ¤¿¨) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29716] Host "[IP] 172.19.33.72 [Port] 0 [Flags] 2 [Guid] 3612279117 [EditorId] 3612279117 [Version] 1048832 [Id] WindowsEditor(7,ÐìÎÄÁÕµÄ´óÆ¤¿¨) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23556] Host "[IP] 169.254.222.7 [Port] 0 [Flags] 2 [Guid] 2924192256 [EditorId] 2924192256 [Version] 1048832 [Id] WindowsEditor(7,ÐìÎÄÁÕµÄ´óÆ¤¿¨) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 15.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.34f1c1 (1e17368ca73f)
 [Subsystems] Discovering subsystems at path D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/unity3d é¡¹ç›®/2022.3.34f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010052 seconds.
-- Loaded All Assemblies, in  0.272 seconds
+Registered in 0.009440 seconds.
+- Loaded All Assemblies, in  1.483 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 231 ms
+Android Extension - Scanning For ADB Devices 316 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.483 seconds
-Domain Reload Profiling: 753ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 2094ms
+	BeginReloadAssembly (73ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (127ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (75ms)
+	initialDomainReloadingComplete (499ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (71ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (773ms)
+			TypeCache.Refresh (772ms)
+				TypeCache.ScanAssembly (555ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (483ms)
+	FinalizeReload (614ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (439ms)
+		SetupLoadedEditorAssemblies (575ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (311ms)
+			InitializePlatformSupportModulesInManaged (438ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 753ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.455 seconds
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.561 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.578 seconds
-Domain Reload Profiling: 1030ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 2093ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (217ms)
+	LoadAllAssembliesAndSetupDomain (1396ms)
+		LoadAssemblies (1214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (99ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (579ms)
+	FinalizeReload (536ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
+		SetupLoadedEditorAssemblies (430ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (365ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.9 KB). Loaded Objects now: 3620.
-Memory consumption went from 206.5 MB to 206.4 MB.
-Total: 2.846600 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.399600 ms  DeleteObjects: 0.099000 ms)
+Unloading 33 unused Assets / (57.5 KB). Loaded Objects now: 3620.
+Memory consumption went from 206.5 MB to 206.5 MB.
+Total: 2.957200 ms (FindLiveObjects: 0.242800 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.545700 ms  DeleteObjects: 0.096300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,10 +186,491 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d12a78c00823e13d7e7c88e22d65fa47 -> ad4d1628751d0f005c784c9f01675393
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.328 seconds
+- Loaded All Assemblies, in  0.299 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 9.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3623.
+Memory consumption went from 201.8 MB to 201.7 MB.
+Total: 2.594600 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.254300 ms  DeleteObjects: 0.047400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+========================================================================
+Received Import Request.
+  Time since last request: 4225.852606 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(4cdb9439d0475f74c98543ab1351ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(4cdb9439d0475f74c98543ab1351ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57495f1ef6a2e42ec4ead03a33c30828') in 0.001497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 132.472816 seconds.
+  path: Assets/Script
+  artifactKey: Guid(26dd4daa3c8820a489f0a9f467698262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(26dd4daa3c8820a489f0a9f467698262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c2c5ecf668435f9802b914f5129c774') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.640750 seconds.
+  path: Assets/GestureRecognition.cs
+  artifactKey: Guid(a5f581fdc6e6ad240bff0f3f9c9a6d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GestureRecognition.cs using Guid(a5f581fdc6e6ad240bff0f3f9c9a6d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c87b1f07a8534460d948f5c3098d904') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.312 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1107ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3627.
+Memory consumption went from 201.5 MB to 201.5 MB.
+Total: 2.548800 ms (FindLiveObjects: 0.237800 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.175000 ms  DeleteObjects: 0.052300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+========================================================================
+Received Import Request.
+  Time since last request: 4.316763 seconds.
+  path: Assets/GestureRecognition.cs
+  artifactKey: Guid(a5f581fdc6e6ad240bff0f3f9c9a6d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GestureRecognition.cs using Guid(a5f581fdc6e6ad240bff0f3f9c9a6d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2acf820472790267f78b6e92d58718b1') in 0.001938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.326 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.784 seconds
+Domain Reload Profiling: 1107ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (785ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3630.
+Memory consumption went from 201.5 MB to 201.5 MB.
+Total: 2.501800 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.154000 ms  DeleteObjects: 0.045100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.307 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1142ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 6.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3633.
+Memory consumption went from 201.8 MB to 201.8 MB.
+Total: 2.545500 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.203200 ms  DeleteObjects: 0.043700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.335 seconds
 Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -198,68 +679,435 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.909 seconds
-Domain Reload Profiling: 1234ms
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1216ms
 	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (884ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 6.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3636.
+Memory consumption went from 201.8 MB to 201.8 MB.
+Total: 2.955800 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.554500 ms  DeleteObjects: 0.051300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.319 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1142ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (205ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (8ms)
 			TypeCache.Refresh (3ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (910ms)
+	FinalizeReload (827ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (438ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (365ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (337ms)
 			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3639.
+Memory consumption went from 201.8 MB to 201.8 MB.
+Total: 2.515400 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.197200 ms  DeleteObjects: 0.045200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.325 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1201ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (880ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3623.
-Memory consumption went from 201.7 MB to 201.7 MB.
-Total: 2.670500 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.336200 ms  DeleteObjects: 0.047700 ms)
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3642.
+Memory consumption went from 201.8 MB to 201.8 MB.
+Total: 2.857600 ms (FindLiveObjects: 0.232900 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.491900 ms  DeleteObjects: 0.053000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
 ========================================================================
-Received Import Request.
-  Time since last request: 25193.560264 seconds.
-  path: Assets/Scenes/SampleScene 1.unity
-  artifactKey: Guid(8c51e31c578adf842bc1f8e90e0af315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene 1.unity using Guid(8c51e31c578adf842bc1f8e90e0af315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd8b3b27c92beaa441895735e3edbfa69') in 0.001966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.342 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (889ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3645.
+Memory consumption went from 201.8 MB to 201.8 MB.
+Total: 2.888900 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.541900 ms  DeleteObjects: 0.047400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Posture.cs: 77123179e854ffa278adfd2126d36be5 -> d1b6e55ee8af6b6fccfeb29fa0be7e02
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: f96859e31fd6dde308d9dc2a2488dcff -> c142d02d70a129e0533975f7c2f96956
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: d0f86a17d6fd3e9995db934eaaf34f18 -> f5cd9d5a43bfefc8f4fec80e6de896a4
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 5a37842f75734e7729f89af9a8145a1a -> 92608fa4a6315cd0786d82205e77b697
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 2da4737d79388c0362c64482e9ee50d2 -> 650ab1e81d40126e3edcf737cce646e4
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 16900906a98712c9660b9823af1f2500 -> 63ec564c588058369499638dd899e05b
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: 59997facf165601d8c6263ace2a973a5 -> a9d4be556104ff54e7d240529b3e01dc
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 7ee93fce990cec7a5b67b504d0259dce -> 13505d917eab5868c435e0c2986dadfa
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: c0db108de9ffc9b6f619f3d00162b1c2 -> ba2be21a7486d37b1011342977a2e49d
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 1fef48c763f4be76a973f061699dd041 -> 2d3e2cd961730ab95f139a49a673bace
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 92dcd0c0a469d0c0690d8ca0bfe95e6f -> 5640963252ce70910e726415f869ced6
+  custom:scripting/monoscript/fileName/DropdownSample.cs: b4fe7efb027fdd4854f643ad764daa8c -> 0a92251794e5f10400149f96c3c59e5d
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: c5431dac938081648a3a3ac553c1029b -> 2663459c266363641981c7d17b698d7f
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TwoHand.cs: 2eee48536310f05bf325f4fc21096568 -> 44def2fb78abd2c09297335e9fe43163
+  custom:scripting/monoscript/fileName/ChatController.cs: ff21b89493e3dffcbe018a2cc5a10bae -> 876d5ccae6e345dd5d9450eb0a748f16
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: c0f20e5855e88374db1098a5acc68df4 -> 76f28e2ddb031571e6ec62b018f65fa8
+  custom:scripting/monoscript/fileName/TeleType.cs: c18e16db35615314900dbe198d0144e7 -> 31fa97821c4c70f157ec81d507aa6b62
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 86dfb70824307c4cf164687df2489226 -> 32220b148620e52aa81c13a114862bf4
+  custom:scripting/monoscript/fileName/HandBinder.cs: 384b26de1a7ba15cddcadc6643858f45 -> 44982a5dfec698502dd5556f5209393f
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: b4c1c54136dffeb4e2962027ebaa6b1f -> 7c3049f481e464c6a9a15dee56c3126f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UDPReceive2.cs: 69eeacebad24020793e09f1e3e2a9770 -> b9b04d15afecddba6d91bb216e6d77b5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 08e040d459cd881082c0dd5daba5f85c -> 1b4f61c17e4b7283c3ac351aacff9d26
+  custom:scripting/monoscript/fileName/BodyTracking.cs: 9bfa6213fff4d95bd5fb0e4c5a2599a2 -> e9d4f8c62f929e483a81e42dc520fdd7
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 88b70bc5bbc15375387323f48f0661cf -> 55ce425812446482e623ff2695c94cb2
+  custom:scripting/monoscript/fileName/SimpleScript.cs: dcd92cf7399b0d08e25e4a66ab57e91e -> 454caab0c6c050f29b39d82e1d66d0fa
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: b34dd4d17018731600f920d50ca840f7 -> 2b96bb2079dd7fa5108d981627a28e1e
+  custom:scripting/monoscript/fileName/CameraController.cs: 8d43c2def3a67efed518259a2232b470 -> 34b6be4e23ce86dc89786916c5983296
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 7aad42023b6f5112c90650ae13bd6dd8 -> 3f1709cfb2cc628169113a35b5e9be3f
+  custom:scripting/monoscript/fileName/LineCode.cs: 69aecdf90e46e76770c5cfe640cd5329 -> c8f777412ecf2f322aac1bb371510e1f
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 088357b4acdc1e6288d897936d29c8d3 -> 347309a09d56e367b188a6978f75b424
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: 6330f950b41eff6e5970f129864ecd6c -> d27eb5498e48714a66aece98da065133
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: f2c8898b26c0cf2b0a1c7d12d99e6769 -> 33fc311abb20b5b0ed8f00e4d86b574e
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 135fb0ebdaf256193ccc08218c426c64 -> 5f984ca91cf3609293aecc6bc5641572
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 8afeb6f0251e063dcfff2bd827f92c62 -> 46f655df8cb483ac5958307137b1585a
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: 587e5b2aecc39120c2c9ff69742ce897 -> a6f78c4fcda1a29a1a1c1baefedba9e7
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: 8fa3bcf761bb5076fd90d0361518d59c -> b01021aea19247f14a98ab338907956a
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: 194f3617683541355a9c6c8193e87b1c -> b626d2270e6ebd5c4311585c18b58d8d
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: 4e5cde653ae28b90ab257e866c94dfce -> ac02af96215ae3951a3cce9e1a8c6085
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandTracking.cs: 3833e8f1612db4ac4a24c8a468f5632c -> 0938c10a82f5cab5777949b889058fcc
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 52a24b07fcdd062ef495404efdb65870 -> 6148cfe2627b7708298f301788144139
+  custom:scripting/monoscript/fileName/UDPReceive.cs: dc7b48805decab786c0dfd96a4b0b5ce -> 0abab88c660c7a27fe115ea969c8669e
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 520976d641c2b7cf395e30b045f5a45d -> 17cc87e0529ac71d909a946afb47a274
