@@ -44,7 +44,7 @@ class DeepLearningGestureRecognizer:
         # 手势标签（保持英文以避免编码问题）
         self.gesture_labels = [
             "None", "OpenPalm", "Fist", "PointingIndex", "OkSign", "Victory",
-            "ThumbsUp", "ThumbsDown"
+            "ThumbsUp"
         ]
 
         # 初始化UDP Socket用于与Unity通信
@@ -82,7 +82,7 @@ class DeepLearningGestureRecognizer:
     def collect_training_data(self, output_folder="gesture_data", gestures_to_collect=None):
         """收集手势训练数据"""
         if gestures_to_collect is None:
-            gestures_to_collect = self.gesture_labels[1:6]  # 默认：前5种手势类型
+            gestures_to_collect = self.gesture_labels[1:]  # 收集手势
 
         os.makedirs(output_folder, exist_ok=True)
 
@@ -253,6 +253,7 @@ class DeepLearningGestureRecognizer:
             points.append([landmark.x, landmark.y, landmark.z])
         return np.array([points])
 
+    
     def recognize_gesture_with_model(self, landmarks):
         """使用深度学习模型识别手势"""
         processed_data = self.preprocess_landmarks(landmarks)
@@ -263,8 +264,9 @@ class DeepLearningGestureRecognizer:
         # 如果置信度太低，返回None
         if confidence < 0.7:
             return 0, confidence
-
-        return gesture_idx, confidence
+            
+        # 修复：确保索引正确映射到手势标签
+        return gesture_idx + 1, confidence  # 修正索引偏移
 
     def recognize_gesture_geometric(self, landmarks):
         """使用几何方法识别手势"""
@@ -277,6 +279,8 @@ class DeepLearningGestureRecognizer:
 
         # 指尖索引
         fingertips = [4, 8, 12, 16, 20]  # 拇指，食指，中指，无名指，小指
+        # 手指中间关节索引
+        middle_joints = [3, 7, 11, 15, 19]  # 对应各个手指的中间关节
 
         # 计算指尖到手掌中心的距离
         tip_distances = [np.linalg.norm(points[tip] - palm_center) for tip in fingertips]
@@ -313,17 +317,17 @@ class DeepLearningGestureRecognizer:
         if is_extended[1] and is_extended[2] and not any(is_extended[i] for i in [0, 3, 4]):
             return 5  # Victory
 
-        # 6. 大拇指向上 - 仅拇指伸展，向上指
-        if is_extended[0] and not any(is_extended[1:]) and points[4][1] < points[3][1]:
-            return 6  # ThumbsUp
-
-        # 7. 大拇指向下 - 仅拇指伸展，向下指
-        if is_extended[0] and not any(is_extended[1:]) and points[4][1] > points[3][1]:
-            return 7  # ThumbsDown
+        # 6. 大拇指向上 - 修改判断逻辑，使用拇指方向和位置更可靠地判断
+        # 检查拇指是否伸出并且指尖Y坐标小于关节Y坐标（向上）
+        if points[4][1] < points[2][1]:  # 拇指尖Y坐标小于拇指根关节Y坐标（屏幕坐标系Y轴向下）
+            thumb_direction = points[4] - points[2]  # 拇指方向向量
+            # 如果向上分量明显
+            if thumb_direction[1] < -0.1:
+                return 6  # ThumbsUp
 
         return 0  # None/未知
-
-    def process_frame(self, frame):
+    
+    def process_frame(self, frame, handedness=None):
         """处理视频帧并识别手势"""
         # 转换为RGB格式
         rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -351,8 +355,8 @@ class DeepLearningGestureRecognizer:
                 2
             )
 
-        # 处理结果
-        gesture_data = []
+        # 默认手势为未识别（0）
+        gesture_type = 0
 
         if results.multi_hand_landmarks:
             for hand_idx, hand_landmarks in enumerate(results.multi_hand_landmarks):
@@ -365,13 +369,6 @@ class DeepLearningGestureRecognizer:
                         self.mp_drawing_styles.get_default_hand_landmarks_style(),
                         self.mp_drawing_styles.get_default_hand_connections_style()
                     )
-
-                # 确定手的类型（左/右）
-                handedness = 0  # 默认：左手
-                if results.multi_handedness and len(results.multi_handedness) > hand_idx:
-                    handedness_info = results.multi_handedness[hand_idx]
-                    if handedness_info.classification[0].label == "Right":
-                        handedness = 1  # 右手
 
                 # 识别手势
                 if self.has_model:
@@ -389,26 +386,22 @@ class DeepLearningGestureRecognizer:
                 else:
                     gesture = self.recognize_gesture_geometric(hand_landmarks)
                     confidence = 1.0
-
-                # 收集关键点数据
-                landmarks_data = []
-                for landmark in hand_landmarks.landmark:
-                    landmarks_data.extend([landmark.x, landmark.y, landmark.z])
-
-                # 添加手的类型和手势类型到数据中
-                hand_data = {
-                    "hand_type": handedness,
-                    "gesture_type": int(gesture),
-                    "landmarks": landmarks_data
-                }
-                gesture_data.append(hand_data)
+                
+                # 保存最后识别的手势类型 (使用原始识别结果)
+                gesture_type = gesture
 
                 # 显示手势信息
-                gesture_name = self.gesture_labels[gesture]
-                hand_type_text = "Right Hand" if handedness == 0 else "Left Hand"
+                gesture_name = self.gesture_labels[gesture] if gesture < len(self.gesture_labels) else "Unknown"
+                # 确定要显示的手类型文本
+                if results.multi_handedness and len(results.multi_handedness) > hand_idx:
+                    handedness_info = results.multi_handedness[hand_idx]
+                    hand_type_text = handedness_info.classification[0].label
+                else:
+                    hand_type_text = "Unknown Hand"
+    
                 cv2.putText(
                     frame,
-                    f"{hand_type_text}: {gesture_name}",
+                    f"{hand_type_text}: {gesture_name} ({gesture})",
                     (10, 30 + hand_idx * 30),
                     cv2.FONT_HERSHEY_SIMPLEX,
                     0.8,
@@ -416,17 +409,34 @@ class DeepLearningGestureRecognizer:
                     2
                 )
 
-        # 发送数据到Unity
-        if gesture_data:
-            self.send_to_unity(gesture_data)
+        # 发送数据到Unity (只发送手势类型数字)
+        self.send_to_unity(gesture_type)
 
         return frame
 
+   
     def send_to_unity(self, gesture_data):
         """将手势数据发送到Unity"""
         try:
-            json_data = json.dumps(gesture_data)
-            self.sock.sendto(json_data.encode(), (self.unity_ip, self.unity_port))
+            # 检查是否是单个数字（int或numpy.int64等）
+            if isinstance(gesture_data, (int, np.integer)):
+                # 简单地发送数字
+                self.sock.sendto(str(gesture_data).encode(), (self.unity_ip, self.unity_port))
+            else:
+                # 对于复杂数据结构，使用JSON
+                # 将numpy类型转换为Python原生类型
+                def convert_numpy_types(obj):
+                    if isinstance(obj, np.integer):
+                        return int(obj)
+                    elif isinstance(obj, np.floating):
+                        return float(obj)
+                    elif isinstance(obj, np.ndarray):
+                        return obj.tolist()
+                    return obj
+                
+                # 使用自定义转换函数处理numpy类型
+                json_data = json.dumps(gesture_data, default=convert_numpy_types)
+                self.sock.sendto(json_data.encode(), (self.unity_ip, self.unity_port))
         except Exception as e:
             print(f"发送数据错误: {e}")
 
