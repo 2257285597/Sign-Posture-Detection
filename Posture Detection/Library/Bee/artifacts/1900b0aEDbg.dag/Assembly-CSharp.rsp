@@ -363,6 +363,7 @@
 "Assets/Script/HandBinder.cs"
 "Assets/Script/HandTracking.cs"
 "Assets/Script/LineCode.cs"
+"Assets/Script/Player/PlayerControl.cs"
 "Assets/Script/Posture.cs"
 "Assets/Script/TwoHand.cs"
 "Assets/Script/UDPReceive.cs"

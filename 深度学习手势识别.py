@@ -44,7 +44,7 @@ class DeepLearningGestureRecognizer:
         # 手势标签（保持英文以避免编码问题）
         self.gesture_labels = [
             "None", "OpenPalm", "Fist", "PointingIndex", "OkSign", "Victory",
-            "ThumbsUp"
+            "ThumbsUp",
         ]
 
         # 初始化UDP Socket用于与Unity通信
@@ -188,7 +188,7 @@ class DeepLearningGestureRecognizer:
                             # 添加到数据集
                             gesture_data.append({
                                 "landmarks": landmarks_data,
-                                "label": gesture_idx
+                                "label": gesture_idx+1
                             })
 
                             samples_count += 1
@@ -246,6 +246,8 @@ class DeepLearningGestureRecognizer:
         self.model = model
         self.has_model = True
 
+        print("标签分布:",np.bincount(y))
+
     def preprocess_landmarks(self, landmarks):
         """预处理关键点数据用于模型输入"""
         points = []
@@ -265,8 +267,9 @@ class DeepLearningGestureRecognizer:
         if confidence < 0.7:
             return 0, confidence
             
+         #print("原始预测:", predictions[0])
         # 修复：确保索引正确映射到手势标签
-        return gesture_idx + 1, confidence  # 修正索引偏移
+        return gesture_idx, confidence  # 修正索引偏移
 
     def recognize_gesture_geometric(self, landmarks):
         """使用几何方法识别手势"""
