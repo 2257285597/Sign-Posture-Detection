@@ -33365,6 +33365,10 @@ MonoBehaviour:
   mouseSensitivity: 2
   upperLimit: 80
   lowerLimit: -80
+  gestureReceiver: {fileID: 0}
+  effect4Prefab: {fileID: 8785134329444880219, guid: 51c7e46f17ddd4b438d8919c6643c260, type: 3}
+  effect5Prefab: {fileID: 2446245781842574243, guid: 0c1bcea623ba6df48ad5ec8d0705e03e, type: 3}
+  gestureMoveSpeed: 3
 --- !u!143 &204723217
 CharacterController:
   m_ObjectHideFlags: 0
@@ -317779,7 +317783,7 @@ Transform:
   m_GameObject: {fileID: 1784702705}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.4, y: 116.5, z: 161}
+  m_LocalPosition: {x: 18.4, y: 119.6, z: 161}
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []

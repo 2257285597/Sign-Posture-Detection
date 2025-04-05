@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|d:\\document\\github\\sign-posture-detection\\posture detection\\assets\\script\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\assets\\script\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|d:\\document\\github\\sign-posture-detection\\posture detection\\assets\\script\\deep learning\\gesturereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\assets\\script\\deep learning\\gesturereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deep learning\\gesturereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerControl.cs",
               "ToolTip": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Player\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\PlayerControl.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA6wCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAQwBoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T15:21:04.777Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Deep Learning\\GestureReceiver.cs",
               "ToolTip": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Deep Learning\\GestureReceiver.cs",
               "RelativeToolTip": "Assets\\Script\\Deep Learning\\GestureReceiver.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIBPwEoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T15:28:53.997Z",
               "EditorCaption": ""
