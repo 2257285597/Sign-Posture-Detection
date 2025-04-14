@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|d:\\document\\github\\sign-posture-detection\\posture detection\\assets\\script\\player\\rightangleflip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\rightangleflip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\assets\\script\\player\\wallwalkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\wallwalkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\assets\\script\\deep learning\\gesturereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EAF086B-A804-A495-33A9-8477D79FE3D1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deep learning\\gesturereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -48,7 +56,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerControl.cs",
               "ToolTip": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Player\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\PlayerControl.cs",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAQwBoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAgwOAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T15:21:04.777Z",
               "EditorCaption": ""
@@ -56,6 +64,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RightAngleFlip.cs",
+              "DocumentMoniker": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Player\\RightAngleFlip.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\RightAngleFlip.cs",
+              "ToolTip": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Player\\RightAngleFlip.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\RightAngleFlip.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T11:45:57.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WallWalkController.cs",
+              "DocumentMoniker": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Player\\WallWalkController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\WallWalkController.cs",
+              "ToolTip": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Player\\WallWalkController.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\WallWalkController.cs",
+              "ViewState": "AgIAAPsBAAAAAAAAAAA4wAgCAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:08:16.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GestureReceiver.cs",
               "DocumentMoniker": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\Deep Learning\\GestureReceiver.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Deep Learning\\GestureReceiver.cs",
@@ -63,12 +96,11 @@
               "RelativeToolTip": "Assets\\Script\\Deep Learning\\GestureReceiver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T15:28:53.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T15:28:53.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TwoHand.cs",
               "DocumentMoniker": "D:\\Document\\GitHub\\Sign-Posture-Detection\\Posture Detection\\Assets\\Script\\TwoHand.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TwoHand.cs",
@@ -80,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TwoHand.cs",
               "DocumentMoniker": "D:\\UnityDate\\Posture Detection\\Assets\\TwoHand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\UnityDate\\Posture Detection\\Assets\\TwoHand.cs",
@@ -92,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BodyTracking.cs",
               "DocumentMoniker": "D:\\UnityDate\\Posture Detection\\Assets\\BodyTracking.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\UnityDate\\Posture Detection\\Assets\\BodyTracking.cs",
@@ -104,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HandTracking.cs",
               "DocumentMoniker": "D:\\UnityDate\\Posture Detection\\Assets\\HandTracking.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\UnityDate\\Posture Detection\\Assets\\HandTracking.cs",
@@ -116,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UDPReceive.cs",
               "DocumentMoniker": "D:\\UnityDate\\Posture Detection\\Assets\\UDPReceive.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\UnityDate\\Posture Detection\\Assets\\UDPReceive.cs",
